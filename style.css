@@ -3,7 +3,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
   }
   
-  .header {
+.header {
     padding: 0 45px;
     background-color: #283593;
     color: #FFF;
@@ -13,30 +13,30 @@ body {
     flex-wrap: wrap;
   }
   
-  .nav a {
+.nav a {
     color: #FFFF;
     text-decoration: none;
     display: block;
     transition: all 0.3s ease-out;
   }
   
-  .nav a:hover{
+.nav a:hover{
     color: #c5cae9;
     transform: rotate(6deg);
   }
   
-  .nav {
+.nav {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
   }
   
-  .nav li {
+.nav li {
     margin-left: 20px;
   }
   
-  .hero {
+.hero {
     background-image: url('assets/scene1.jpg'); 
     background-repeat: no-repeat;
     padding: 60px 45px;
@@ -44,25 +44,25 @@ body {
     justify-content: center;
   }
   
-  .hero-inner {
+.hero-inner {
     background-color: #ffffff69;
     max-width: 750px;
     padding: 60px;
     border-radius: 20px;
   }
   
-  .hero h1{
+.hero h1{
     font-weight: normal;
     font-size: 4rem;
     margin: 0;
   }
   
-  .hero p{
+.hero p{
     font-size: 1.18rem;
     line-height: 1.6;
   }
   
-  .button {
+.button {
     background-color: #3949ab;
     color: #FFF;
     text-decoration: none;
@@ -71,12 +71,12 @@ body {
     display: inline-block;
   }
   
-  .features {
+.features {
     background-color: #e8eaf6;
     padding: 60px 45px;
   }
   
-  .features-inner {
+.features-inner {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -85,20 +85,20 @@ body {
     grid-row-gap: 45px;
   }
   
-  .featured-item h3 {
+.featured-item h3 {
     color: #283593;
     font-size: 1.5rem;
     font-weight: normal;
     margin: 0;
   }
   
-  .featured-item p {
+.featured-item p {
     margin: 0;
     line-height: 1.6;
     color: #333;
   }
   
-  .footer {
+.footer {
     text-align: center;
     padding: 20px 0;
     color: #999;
